@@ -1,27 +1,15 @@
-# Courses
+# DT208G - Moment 4 - Angular 2
+## Syfte
+Uppgiftens syfte är 
++ att träna på att göra HTTP-anrop med Angular och HttpClient.
++ Skapa services med Angular
++ Presentera data på skärmen från Http-anrop 
++ Sortera och söka data
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.3.6.
+# Uppgiften
+Uppgiften är att skapa en sida  med Angular som läser in ramschemat för webbutvecklingsprogrammet HT -23 och presentera detta i tabellformat på hemsidan. 
 
-## Development server
-
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
-
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+* Ett interface är skapat som innehåller struktur för varje Course.
+* Ett service är skapat som sköter hämtningen av data från JSON - hämtningen sker via extern URL. 
+* Sökfunktion är blablabla...
+* Sorteringsfunktion för kurserna blablabla...
