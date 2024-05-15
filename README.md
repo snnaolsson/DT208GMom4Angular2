@@ -11,5 +11,5 @@ Uppgiften är att skapa en sida  med Angular som läser in ramschemat för webbu
 
 * Ett interface är skapat som innehåller struktur för varje Course.
 * Ett service är skapat som sköter hämtningen av data från JSON - hämtningen sker via extern URL. 
-* Sökfunktion är blablabla...
+* Sökfunktion består av metoden applyfilter som kallas när användaren skriver i sökrutan. I metoden så används filter-metoden för att skapa en ny array som endast innehåller de kurser från courselist som matchar användarens sökfras. I return-satsen så används en ||-operator för att kombinera två villkor: antingen att namnet på kursen innehåller sökfrasen eller att den konverterade kurskoden innehåller sökfrasen. Om något av dessa stämmer så läggs kursen till den nya filtrerade arrayen som då skrivs ut till sidan via en loop på html-sidan.
 * Sorteringsfunktion för kurserna blablabla...
