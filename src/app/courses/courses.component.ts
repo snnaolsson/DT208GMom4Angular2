@@ -16,6 +16,7 @@ export class CoursesComponent {
   courselist: Course[] = [];
   filteredCourses: Course[] = [];
   filterValue : string = '';
+  
 
   constructor(private courseservice : CourseService){}
 
@@ -35,4 +36,18 @@ export class CoursesComponent {
        );
     });
   }
+
+  //sortera på kurskod
+  sortCode():void{
+    this.filteredCourses = this.courselist.sort((a, b)=> a.code.toLocaleString().localeCompare(b.code.toLocaleString()));
+  }
+  //sortera på kursnamn
+  sortName():void{
+    this.filteredCourses = this.courselist.sort((a, b)=>a.coursename.localeCompare(b.coursename));
+  }
+  //sortera på progression
+  sortProgression():void{
+    this.filteredCourses = this.courselist.sort((a, b)=> a.progression.localeCompare(b.progression));
+  }
+
 }
