@@ -1,0 +1,7 @@
+.thBtn{
+    text-decoration: underline;
+}
+.thBtn:hover{
+    cursor: pointer;
+    font-weight: bold;
+}

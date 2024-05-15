@@ -5,9 +5,9 @@
 </div>
 <table>
     <tr>
-        <th (click)="sortCode()">Kurskod</th>
-        <th (click)="sortName()">Kursnamn</th>
-        <th (click)="sortProgression()">Progression</th>
+        <th (click)="sortCode()" class="thBtn">Kurskod</th>
+        <th (click)="sortName()" class="thBtn">Kursnamn</th>
+        <th (click)="sortProgression()" class="thBtn">Progression</th>
     </tr>
     <tr *ngFor="let course of filteredCourses">
         <td>{{course.code}}</td>
